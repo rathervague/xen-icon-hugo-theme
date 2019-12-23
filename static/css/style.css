@@ -37,6 +37,10 @@ p {
   margin-bottom: 30px;
 }
 
+[class^="icon-"], [class*=" icon-"]{
+  color:#474747;
+}
+
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
@@ -65,7 +69,7 @@ p {
 }
 
 .btn-primary {
-  background: #69c2c8;
+  background: #d40000;
   color: #fff;
   border: 2px solid #69c2c8;
 }
@@ -75,11 +79,11 @@ p {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #69c2c8;
-  border: 2px solid #69c2c8;
+  color: #d40000;
+  border: 2px solid #d40000;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #69c2c8;
+  background: #d40000;
   color: #fff;
 }
 
@@ -260,7 +264,7 @@ p {
 .fh5co-main-nav .fh5co-menu-1 a {
   padding: 35px 0;
   margin-right: 30px;
-  color: #ccc;
+  color: #424242;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
@@ -273,6 +277,7 @@ p {
 .fh5co-main-nav .fh5co-menu-1 a:hover, .fh5co-main-nav .fh5co-menu-1 a:focus, .fh5co-main-nav .fh5co-menu-1 a:active {
   outline: none;
   text-decoration: none;
+  color: #d40000;
 }
 .fh5co-main-nav .fh5co-menu-1 a.active {
   font-weight: 400;
@@ -565,7 +570,7 @@ p {
   float: left;
   width: 90px;
   height: 90px;
-  background: #69c2c8;
+  background: #fff;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -585,10 +590,15 @@ p {
   vertical-align: middle;
   font-size: 40px;
   line-height: 40px;
+  color: #cccccf;
 }
 #fh5co-services .fh5co-video a:hover {
-  background: #57D131;
+  background: #d40000;
 }
+#fh5co-services .fh5co-video a:hover i {
+  color: #fff;
+}
+
 #fh5co-services .fh5co-video a:hover, #fh5co-services .fh5co-video a:focus, #fh5co-services .fh5co-video a:active {
   text-decoration: none;
   outline: none;
@@ -621,14 +631,14 @@ p {
 }
 #fh5co-services .service .icon i {
   font-size: 40px;
-  color: #57D131;
+  color: #d40000;
 }
 #fh5co-services .service h3 {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #368f95;
+  color: #4d4d4d;
 }
 #fh5co-services .service:hover, #fh5co-services .service:focus {
   border: 1px solid #e6e6e6;
@@ -687,7 +697,7 @@ p {
   bottom: 0;
   left: 50%;
   margin-left: -25px;
-  background: #cccccc;
+  background: #d40000;
 }
 .fh5co-heading p {
   font-size: 18px;
@@ -799,7 +809,7 @@ p {
   right: 0;
   left: 0;
   z-index: 0;
-  background: #69c2c8;
+  background: #d40000;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.1s;
